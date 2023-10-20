@@ -1,0 +1,144 @@
+.body-cal{
+	width: 100%;
+	height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/*	background: linear-gradient(45deg);*/
+}
+.calculator{
+	border: 1px solid gray;
+	padding: 20px;
+	border-radius: 16px;
+	background: linear-gradient(45deg,#0a0a0a,#3a4452);
+/*	box-shadow: 0pm;*/
+}
+.cal-input{
+	width: 325px;
+	border-radius: 10px;
+	border: none;
+	padding-right: 20px;
+	margin: 4px;
+	margin-bottom: 20px;
+	background: white;
+	box-shadow: 5px 5px 13px rgba(111, 115, 119, 0.5) ;
+	font-size: 50px;
+	text-align: right;
+	cursor: pointer;
+	color: black;
+}
+.cal-input::placeholder{
+	color: black;
+}
+.btn-cal{
+	border: none;
+	width: 60px;
+	height: 60px;
+	margin: 10px;
+	border-radius: 20%;
+	background: transparent;
+	color: white;
+	font-size: 20px;
+	box-shadow: 5px 5px 13px rgba(113, 115, 119, 0.4);
+	font-weight: bold;
+}
+.equalbtn{
+	background-color: orange;
+}
+.operator{
+	color: #00FFF6;
+}
+.zero{
+	border: none;
+	width: 142px;
+	height: 60px;
+	margin: 10px;
+	border-radius: 10px;
+	background: transparent;
+	color: white;
+	font-size: 20px;
+	box-shadow: 5px 5px 13px rgba(113, 115, 119, 0.5);
+	font-weight: bold;
+}
+.history-btn{
+	border: none;
+	width: 90px;
+	height: 35px;
+	margin: 10px;
+	border-radius: 10px;
+	background: transparent;
+	color: white;
+	font-size: 25px;
+	box-shadow: 5px 5px 13px rgba(113, 115, 119, 0.5);
+	font-weight: bold;
+}
+.cal-input-history{
+	width: 325px;
+	border-radius: 10px;
+	border: none;
+	padding: 1px;
+	margin: 4px;
+	margin-bottom: 20px;
+	background: white;
+	box-shadow: 5px 5px 13px rgba(111, 115, 119, 0.5) ;
+	font-size: 10px;
+	text-align: center;
+	cursor: pointer;
+	color: black;
+}
+.cal-input-chit{
+	border: none;
+	border-radius: 10px;
+	background-color: red;
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+}
+.btn-cal-oper{
+	border: none;
+	width: 60px;
+	height: 60px;
+	margin: 10px;
+	border-radius: 20%;
+	background: transparent;
+	font-size: 20px;
+	box-shadow: 5px 5px 13px rgba(113, 115, 119, 0.4);
+	font-weight: bold;
+	color: skyblue;
+}
+
+.btn-cal-ac{
+	border: none;
+	width: 60px;
+	height: 60px;
+	margin: 10px;
+	border-radius: 20%;
+	background: transparent;
+	font-size: 20px;
+	box-shadow: 5px 5px 13px rgba(113, 115, 119, 0.4);
+	font-weight: bold;
+	color: orange;
+}
+
+.btn-cal-del{
+	border: none;
+	width: 60px;
+	height: 60px;
+	margin: 10px;
+	border-radius: 20%;
+	background: transparent;
+	font-size: 20px;
+	box-shadow: 5px 5px 13px rgba(113, 115, 119, 0.4);
+	font-weight: bold;
+	color: red;
+}
+
+.cal-history {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    color: black;
+}
+a{
+	text-decoration: none;
+}

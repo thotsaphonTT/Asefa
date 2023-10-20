@@ -1,0 +1,16 @@
+.texts-white{
+	color: white;
+}
+body{
+	font-family: 'Kanit', sans-serif;
+	background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+}
+.h100{
+	style="height: 100px;"
+}
+.cards{
+	transition: transform 0.5s ease-in-out;
+}
+.cards:hover{
+	transform: translateY(-10px);
+}
